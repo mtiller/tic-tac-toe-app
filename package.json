@@ -1,0 +1,23 @@
+{
+  "name": "tic-tac-toe-app",
+  "version": "0.0.1",
+  "description": "A simple tic-tac-toe application",
+  "main": "ttt.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xogeny/tic-tac-toe-app.git"
+  },
+  "keywords": [
+    "tutorial",
+    "angular"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xogeny/tic-tac-toe-app/issues"
+  },
+  "homepage": "https://github.com/xogeny/tic-tac-toe-app"
+}
