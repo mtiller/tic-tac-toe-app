@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/xogeny/tic-tac-toe-app/issues"
   },
-  "homepage": "https://github.com/xogeny/tic-tac-toe-app"
+  "homepage": "https://github.com/xogeny/tic-tac-toe-app",
+  "devDependencies": {
+    "angular": "^1.4.3"
+  }
 }
