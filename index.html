@@ -12,21 +12,9 @@
 	  <h2>User: {{game.user}}</h2>
 	  <p>The rules are simple match {{ 1+2 }} in a row and you win</p>
 	  <table>
-		<tr>
-		  <td>X</td>
-  		  <td>O</td>
-  		  <td>&nbsp;</td>
-		</tr>
-		<tr>
-		  <td>O</td>
-		  <td>X</td>
-		  <td>&nbsp;</td>
-		</tr>
-		<tr>
-  		  <td> </td>
-  		  <td>O</td>
-  		  <td>&nbsp;</td>
-		</tr>
+      <tr ng-repeat="row in game.board track by $index">
+        <td ng-repeat="column in row track by $index"> {{column}}</td>
+      </tr>
 	  </table>
 	</div>
   </body>
