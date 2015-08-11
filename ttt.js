@@ -1,3 +1,7 @@
 console.log("When you loaded this page, you ran something too!")
 
-angular.module("TTT", []);
+var ttt = angular.module("TTT", []);
+
+ttt.controller("GameCtrl", ["$scope", function($scope) {
+	this.user = "Matthew";
+}]);
